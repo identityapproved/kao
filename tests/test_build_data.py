@@ -13,6 +13,8 @@ spec = importlib.util.spec_from_file_location("build_data", BUILD)
 build_data = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(build_data)
 
+from kao.db import DB  # noqa: E402
+
 
 class TestBuildData(unittest.TestCase):
     def test_width(self):
@@ -31,8 +33,42 @@ class TestBuildData(unittest.TestCase):
         self.assertTrue(data_py.exists())
         ns = {}
         exec(data_py.read_text(encoding="utf-8"), ns)
-        self.assertGreater(len(ns["DATA"]), 0)
+        self.assertGreater(ns["COUNT"], 0)
         self.assertIn("CATEGORIES", ns)
+        # the committed module never carries data/local/ entries
+        from kao import _data
+
+        committed = {e["text"] for e in json.loads((ROOT / "data" / "kaomoji.json").read_text(encoding="utf-8"))}
+        db = DB(_data)
+        self.assertTrue({db.face(i) for i in range(db.count)} <= committed)
+
+    def test_filters(self):
+        for face in ("(^_^)", "(T_T)", "(♡ω♡)", "☆(≧▽≦)☆", "✌︎(ᵔᗜᵔ)✌︎", "( ´∀｀)つ", "(╬ಠ益ಠ)", "(-_-) zzZZ", "(≖_≖ )NO"):
+            self.assertIsNone(build_data.reject_reason(face), face)
+        for face, reason in (
+            ("(🖤‿🖤)", "emoji"),
+            ("(⊂ˆωˆ⊃)☕", "emoji"),
+            ("(≧▽≦)✨", "emoji"),
+            ("❤️", "emoji"),
+            ("📝(｀・ω・´) 予定", "emoji"),
+            ("(˘▾˘) お母さん", "japanese phrase"),
+            ("(✿◠‿◠) Mom thanks", "latin word"),
+        ):
+            self.assertEqual(build_data.reject_reason(face), reason, face)
+
+    def test_merge_and_pack(self):
+        a = [{"text": "(^_^)", "tags": ["happy"], "category": "happy", "source": ["seed"]}]
+        b = [
+            {"text": "(^_^)", "tags": ["smile"], "category": "misc", "source": ["gboard"]},
+            {"text": "(T_T)", "tags": ["sad"], "category": "sad", "source": ["gboard"]},
+        ]
+        merged = build_data.merge([a, b])
+        self.assertEqual(merged[0], {"text": "(^_^)", "tags": ["happy", "smile"], "category": "happy", "source": ["seed", "gboard"]})
+        import types
+
+        db = DB(types.SimpleNamespace(**build_data.pack(merged)))
+        self.assertEqual([db.face(i) for i in range(db.count)], ["(^_^)", "(T_T)"])
+        self.assertEqual((db.tags(0), db.category(1), db.width(1)), ("happy smile", "sad", 5))
 
     def _bad_entry_build(self, entry):
         with tempfile.TemporaryDirectory() as td:

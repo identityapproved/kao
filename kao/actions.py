@@ -1,43 +1,39 @@
-import sys
+def osc52(text):
+    import binascii
+
+    data = text.encode("utf-8")
+    b64 = binascii.b2a_base64(data, newline=False)
+    return b"\x1b]52;c;" + b64 + b"\a"
 
 
-def run(argv, stdin_text=None):
-    """Run a helper; return None on success or a one-line error message."""
-    import subprocess
+def tmux_wrap(seq):
+    # DCS passthrough (needs allow-passthrough on); works when set-clipboard is external
+    return b"\x1bPtmux;" + seq.replace(b"\x1b", b"\x1b\x1b") + b"\x1b\\"
 
+
+def yank(text):
+    import posix
+
+    seq = osc52(text)
+    if b"TMUX" in posix.environ:
+        # wrapped only: a second, plain copy once left zsh stuck in a bracketed paste
+        seq = tmux_wrap(seq)
+    fd = None
+    close = False
     try:
-        # wl-copy forks a child that keeps inherited pipes open, so never capture output
-        proc = subprocess.run(
-            argv,
-            input=stdin_text,
-            text=True,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
-    except FileNotFoundError:
-        return "%s: not found" % argv[0]
-    if proc.returncode != 0:
-        return "%s: failed (exit %d)" % (argv[0], proc.returncode)
+        fd = posix.open("/dev/tty", posix.O_WRONLY)
+        close = True
+    except OSError:
+        fd = 2
+        close = False
+    try:
+        posix.write(fd, seq)
+    except OSError:
+        return "could not write to tty"
+    finally:
+        if close and fd is not None:
+            try:
+                posix.close(fd)
+            except OSError:
+                pass
     return None
-
-
-def copy_cmd(text):
-    return ["wl-copy"], text
-
-
-def type_cmd(text):
-    return ["wtype", "--", text], None
-
-
-def _or_exit(err):
-    if err:
-        print(err, file=sys.stderr)
-        raise SystemExit(1)
-
-
-def copy(text):
-    _or_exit(run(*copy_cmd(text)))
-
-
-def type_text(text):
-    _or_exit(run(*type_cmd(text)))

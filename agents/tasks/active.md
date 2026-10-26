@@ -47,19 +47,19 @@ Work the first unchecked task only. One task per session. Read `agents/architect
   - Write `lua/kao/init.lua` and `plugin/kao.lua` per architecture.md.
   - Check: unittest passes; `nvim --headless -u NONE --cmd 'set rtp+=.' -c 'lua require("kao")' -c q` exits 0; the user tries `:Kao` interactively.
 
-- [ ] T9 dependency-free clipboard (no wl-copy, no wtype)
+- [x] T9 dependency-free clipboard (no wl-copy, no wtype)
   - Rewrite `kao/actions.py` per the Actions section of architecture.md: `osc52(text)` and `yank(text)` only. Delete `run`, `copy_cmd`, `type_cmd`, `copy`, `type_text` and every `subprocess` use.
   - In `kao/tui.py` remove the Ctrl-T (wtype) path and `result["action"] == "type"`; Ctrl-Y goes away too (T10 adds `y`/`Y`).
   - Replace `tests/test_actions.py`: `osc52("(^_^)")` equals `b"\x1b]52;c;KF5fXik=\x07"`; a non-ASCII face round-trips through base64 decode; `import kao.actions` does not import `subprocess` (check `sys.modules` in a fresh `python3 -I -S` subprocess).
   - Check: unittest passes; `grep -rn -E 'subprocess|wl-copy|wtype' kao/` prints nothing; the importtime check from T3 is still clean.
 
-- [ ] T10 vim-style modal keys in the TUI
+- [x] T10 vim-style modal keys in the TUI
   - Implement the TUI key section of architecture.md (INSERT/NORMAL modes, `gg`/`G`, Ctrl-D/U/F/B, `]c`/`[c`, `y`/`Y`, `q`).
   - Put key handling in a pure function, e.g. `handle_key(state, key, page) -> (state, outcome)`, where `state` holds mode, query, cursor, category, pending prefix, and `outcome` is None, "select", "yank", "yank-stay" or "cancel". Curses code only draws and calls it. Use curses key constants passed in as ints so tests do not import curses (`KEY_UP` 259, `KEY_DOWN` 258, `KEY_BACKSPACE` 263, `KEY_NPAGE` 338, `KEY_PPAGE` 339, `KEY_ENTER` 343, `KEY_RESIZE` 410).
   - Extend `tests/test_tui.py`: typing in INSERT edits the query; Esc enters NORMAL; `j`/`k` clamp; `gg` and `G`; `g` then `x` clears pending without jumping; Ctrl-D moves half a page; `]c` then `[c` returns to no filter; `/` clears the query and enters INSERT; `y` returns "yank"; `q` returns "cancel"; Ctrl-W deletes one word.
   - Update the Neovim picker in `lua/kao/init.lua` to the keys in the Neovim section (Esc to prompt normal mode, `j`/`k`, `gg`/`G`, `q`).
   - Check: unittest passes; `nvim --headless -u NONE --cmd 'set rtp+=.' -c 'runtime plugin/kao.lua' -c Kao -c 'qa!'` exits 0. The user tries both by hand.
 
-- [ ] T8 README
+- [x] T8 README
   - Usage, keys (both modes, table), install (`ln -s ~/github/kao/bin/kao ~/.local/bin/kao`), lazy.nvim spec, runtime deps (python3 >= 3.11 and a terminal with OSC 52; nothing else; tmux needs `set -g set-clipboard on`), data sources and attribution.
   - Check: every command in the README runs as written.

@@ -13,14 +13,16 @@ class TestCLI(unittest.TestCase):
         proc = subprocess.run([str(BIN), "list"], cwd=str(ROOT), capture_output=True, text=True)
         self.assertEqual(proc.returncode, 0, proc.stderr)
         lines = proc.stdout.splitlines()
-        from kao import _data
-        self.assertEqual(len(lines), len(_data.DATA))
+        from kao.db import load
+
+        self.assertEqual(len(lines), load().count)
 
     def test_random_happy(self):
-        from kao import _data
+        from kao.db import load
         from kao.search import search
 
-        happy_faces = {e[0] for e in search("happy", _data.DATA)}
+        db = load()
+        happy_faces = {db.face(i) for i in search("happy", db)}
         proc = subprocess.run([str(BIN), "--random", "happy"], cwd=str(ROOT), capture_output=True, text=True)
         self.assertEqual(proc.returncode, 0, proc.stderr)
         self.assertIn(proc.stdout.strip(), happy_faces)

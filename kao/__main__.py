@@ -1,36 +1,41 @@
 import sys
 
 
-def _data():
-    from kao import _data as data
+def _db():
+    from kao.db import load
 
-    return data.DATA
-
-
-def _print_tui_not_implemented():
-    print("tui not implemented")
+    return load()
 
 
 def cmd_list(argv):
-    for entry in _data():
-        print("%s\t%s\t%s" % (entry[2], entry[3], entry[0]))
+    db = _db()
+    # whole blobs at once: one decode and split instead of per-entry slices
+    faces = db.faces.split(b"\n")
+    lines = db.tag_lines.split(b"\n")
+    try:
+        sys.stdout.flush()
+        sys.stdout.buffer.write(b"".join([lines[i] + b"\t" + faces[i] + b"\n" for i in range(db.count)]))
+        sys.stdout.buffer.flush()
+    except BrokenPipeError:
+        # e.g. `kao list | head`
+        sys.stdout = None
     return 0
 
 
 def cmd_random(argv):
     query = " ".join(argv)
-    data = _data()
+    db = _db()
     if query:
         from kao.search import search
 
-        matches = search(query, data)
+        matches = search(query, db)
     else:
-        matches = data
+        matches = range(db.count)
     if not matches:
         return 1
     with open("/dev/urandom", "rb") as f:
         idx = int.from_bytes(f.read(4), "big") % len(matches)
-    print(matches[idx][0])
+    print(db.face(matches[idx]))
     return 0
 
 
@@ -40,8 +45,9 @@ def cmd_json(argv):
     from kao.search import search
 
     query = " ".join(argv)
-    matches = search(query, _data())
-    out = [{"text": e[0], "tags": e[2].split(), "category": e[3]} for e in matches[:50]]
+    db = _db()
+    matches = search(query, db, limit=50)
+    out = [{"text": db.face(i), "tags": db.tags(i).split(), "category": db.category(i)} for i in matches]
     print(json.dumps(out))
     return 0
 

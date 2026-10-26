@@ -2,7 +2,8 @@
 
 Current focus:
 
-- T9 (OSC 52 clipboard, drop wl-copy/wtype), then T10 (vim modal keys), then T8 (README). T1-T7 done by the free lane and reviewed by Claude Code on 2026-10-26.
+- All tasks T1-T10 complete and reviewed by Claude Code (2026-10-26). Next work comes from `agents/tasks/backlog.md`.
+- Local library expansion done (2026-10-27): ~38k Gboard kaomoji in gitignored `data/local/` + `kao/_data_local.py`; committing waits on the source license (backlog).
 
 Blocked:
 

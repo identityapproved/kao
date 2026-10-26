@@ -37,6 +37,13 @@ local function insert_text(text)
   if not (s.orig_win and vim.api.nvim_win_is_valid(s.orig_win)) then
     return
   end
+  if not vim.bo[s.orig_buf].modifiable then
+    -- dashboards, explorers, help: nothing to insert into, so hand the face over as a register
+    vim.fn.setreg('"', text)
+    pcall(vim.fn.setreg, "+", text)
+    vim.notify("kao: buffer is not modifiable; " .. text .. " copied to registers \" and +", vim.log.levels.WARN)
+    return
+  end
   local row, col = unpack(s.orig_cursor)
   -- normal mode inserts after the cursor char, like `a`
   if s.orig_mode ~= "i" and #vim.api.nvim_buf_get_lines(s.orig_buf, row - 1, row, false)[1] > 0 then
@@ -74,7 +81,14 @@ end
 
 local function move(delta)
   if #state.results > 0 then
-    state.sel = (state.sel - 1 + delta) % #state.results + 1
+    state.sel = math.max(1, math.min(state.sel + delta, #state.results))
+    render()
+  end
+end
+
+local function jump(index)
+  if #state.results > 0 then
+    state.sel = index < 0 and #state.results or index
     render()
   end
 end
@@ -156,14 +170,20 @@ function M.open()
       insert_text(item.text)
     end
   end
-  local map = function(lhs, fn) vim.keymap.set({ "i", "n" }, lhs, fn, { buffer = buf, nowait = true }) end
-  map("<CR>", accept)
-  map("<Esc>", close)
-  map("<C-c>", close)
-  map("<C-n>", function() move(1) end)
-  map("<Down>", function() move(1) end)
-  map("<C-p>", function() move(-1) end)
-  map("<Up>", function() move(-1) end)
+  local map = function(modes, lhs, fn) vim.keymap.set(modes, lhs, fn, { buffer = buf, nowait = true }) end
+  -- insert mode edits the query; <Esc> falls through to normal mode in the prompt
+  map({ "i", "n" }, "<CR>", accept)
+  map({ "i", "n" }, "<C-c>", close)
+  map({ "i", "n" }, "<Down>", function() move(1) end)
+  map({ "i", "n" }, "<Up>", function() move(-1) end)
+  for _, lhs in ipairs({ "<C-n>", "<C-j>" }) do map("i", lhs, function() move(1) end) end
+  for _, lhs in ipairs({ "<C-p>", "<C-k>" }) do map("i", lhs, function() move(-1) end) end
+  map("n", "j", function() move(1) end)
+  map("n", "k", function() move(-1) end)
+  map("n", "gg", function() jump(1) end)
+  map("n", "G", function() jump(-1) end)
+  map("n", "q", close)
+  map("n", "<Esc>", close)
 
   vim.cmd.startinsert()
   send_query()

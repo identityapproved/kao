@@ -9,3 +9,6 @@
 - 2026-10-26 T5: kao/actions.py, tests/test_actions.py; missing-binary handling verified.
 - 2026-10-26 T6: tools/bench.sh; results recorded; within budget.
 - 2026-10-26 T7: kao/serve.py, lua/kao/init.lua, plugin/kao.lua, tests/test_serve.py; nvim require check passes.
+- 2026-10-26 T9: OSC 52 actions, TUI Ctrl-Y/Ctrl-T removed, tests pass.
+- 2026-10-26 T10: modal TUI handle_key, OSC 52 y/Y, Neovim picker keys; checks pass.
+- 2026-10-26 T8: README written and commands verified.
