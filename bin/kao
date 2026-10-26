@@ -1,0 +1,17 @@
+#!/usr/bin/env -S python3 -I -S
+import posix
+import sys
+
+# follow symlinks (e.g. ~/.local/bin/kao) with posix, not os: under -S `import os` costs ~14 ms
+path = __file__
+while True:
+    try:
+        target = posix.readlink(path)
+    except OSError:
+        break
+    path = target if target.startswith("/") else path.rsplit("/", 1)[0] + "/" + target
+sys.path.insert(0, path.rsplit("/", 2)[0])
+
+from kao.__main__ import main
+
+raise SystemExit(main())

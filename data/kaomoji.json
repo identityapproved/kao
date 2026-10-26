@@ -1,0 +1,2274 @@
+[
+  {
+    "text": "(^_^)",
+    "tags": [
+      "happy",
+      "smile"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(^.^)",
+    "tags": [
+      "happy",
+      "smile"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(^o^)",
+    "tags": [
+      "happy",
+      "joy"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(⌒▽⌒)",
+    "tags": [
+      "happy",
+      "grin"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(≧▽≦)",
+    "tags": [
+      "happy",
+      "excited"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(´∀｀)",
+    "tags": [
+      "happy",
+      "smile"
+    ],
+    "category": "happy",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(T_T)",
+    "tags": [
+      "sad",
+      "cry"
+    ],
+    "category": "sad",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(；ω；)",
+    "tags": [
+      "sad",
+      "cry"
+    ],
+    "category": "sad",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(´；ω；`)",
+    "tags": [
+      "sad",
+      "tears"
+    ],
+    "category": "sad",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(╥_╥)",
+    "tags": [
+      "sad",
+      "cry"
+    ],
+    "category": "sad",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(´•̥ ̯ •̥`)",
+    "tags": [
+      "sad",
+      "upset"
+    ],
+    "category": "sad",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(>_<)",
+    "tags": [
+      "angry",
+      "frustrated"
+    ],
+    "category": "angry",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(¬_¬)",
+    "tags": [
+      "angry",
+      "annoyed"
+    ],
+    "category": "angry",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(╬ಠ益ಠ)",
+    "tags": [
+      "angry",
+      "rage"
+    ],
+    "category": "angry",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(ಠ_ಠ)",
+    "tags": [
+      "angry",
+      "disapproval"
+    ],
+    "category": "angry",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(♥ω♥)",
+    "tags": [
+      "love",
+      "heart"
+    ],
+    "category": "love",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(´♥ω♥`)",
+    "tags": [
+      "love",
+      "kiss"
+    ],
+    "category": "love",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(´｡• ω •｡`)",
+    "tags": [
+      "love",
+      "hug"
+    ],
+    "category": "love",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(O_O)",
+    "tags": [
+      "surprise",
+      "shock"
+    ],
+    "category": "surprise",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(⊙_⊙)",
+    "tags": [
+      "surprise",
+      "shock"
+    ],
+    "category": "surprise",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(°o°)",
+    "tags": [
+      "surprise",
+      "what"
+    ],
+    "category": "surprise",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(ﾟДﾟ)",
+    "tags": [
+      "surprise",
+      "shock"
+    ],
+    "category": "surprise",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(=^･ω･^=)",
+    "tags": [
+      "animal",
+      "cat"
+    ],
+    "category": "animal",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(U・ω・U)",
+    "tags": [
+      "animal",
+      "dog"
+    ],
+    "category": "animal",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(・ω・)",
+    "tags": [
+      "animal",
+      "neutral"
+    ],
+    "category": "animal",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(ง •̀_•́)ง",
+    "tags": [
+      "action",
+      "determined",
+      "fight",
+      "motivated",
+      "pumped",
+      "spirit"
+    ],
+    "category": "action",
+    "source": [
+      "seed",
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ง'̀-'́)ง",
+    "tags": [
+      "action",
+      "fight"
+    ],
+    "category": "action",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "(ง•̀_•́)ง",
+    "tags": [
+      "action",
+      "fight"
+    ],
+    "category": "action",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "¯\\_(ツ)_/¯",
+    "tags": [
+      "misc",
+      "shrug"
+    ],
+    "category": "misc",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "( ͡° ͜ʖ ͡°)",
+    "tags": [
+      "misc",
+      "lenny"
+    ],
+    "category": "misc",
+    "source": [
+      "seed"
+    ]
+  },
+  {
+    "text": "( •̯́ ₃ •̯̀)",
+    "tags": [
+      "angel",
+      "guilty",
+      "hide",
+      "hiding",
+      "innocent",
+      "kiss",
+      "mwah",
+      "notme",
+      "peek",
+      "pout",
+      "pure",
+      "swear"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "┬┴┬┴┤･ω･)",
+    "tags": [
+      "brb",
+      "hello",
+      "hey",
+      "hi",
+      "hide",
+      "hiding",
+      "lurker",
+      "lurking",
+      "peek",
+      "peekaboo",
+      "peep",
+      "shy",
+      "spy",
+      "spying",
+      "sus",
+      "watching"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "┬┴┬┴┤дﾟ)",
+    "tags": [
+      "curious",
+      "hide",
+      "hiding",
+      "lurker",
+      "lurking",
+      "nosy",
+      "observing",
+      "peek",
+      "peeking",
+      "shy",
+      "spying",
+      "sus",
+      "suspicious",
+      "watching"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ᵔ ᗜ ᵔ)",
+    "tags": [
+      "cheerful",
+      "giggle",
+      "happy",
+      "joy",
+      "woohoo",
+      "yay"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(•‿•)",
+    "tags": [
+      "cute",
+      "happy",
+      "smile"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(•‿•✿)",
+    "tags": [
+      "cute",
+      "flower",
+      "happy",
+      "smile",
+      "sweet"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(🖤‿🖤)",
+    "tags": [
+      "aww",
+      "crush",
+      "heart",
+      "love",
+      "luv",
+      "nice",
+      "noice",
+      "obsessed",
+      "smitten",
+      "sweet"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ˶ ˘ ᵕ˘)ˆᵕ ˆ˶ς)",
+    "tags": [
+      "cuddle",
+      "hug",
+      "kiss",
+      "love",
+      "luv",
+      "mwah"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ´  `) ˙◠˙ ς)",
+    "tags": [
+      "bouh",
+      "comfort",
+      "cuddle",
+      "hug",
+      "patpat",
+      "sorry",
+      "there"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(づ｡◕‿‿◕｡)づ",
+    "tags": [
+      "cuddle",
+      "embrace",
+      "gimme",
+      "hug",
+      "love",
+      "luv",
+      "mine",
+      "snuggle"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(づ￣ ³￣)づ",
+    "tags": [
+      "cuddle",
+      "embrace",
+      "hug",
+      "kiss",
+      "love",
+      "luv",
+      "mwah",
+      "snuggle"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "٩(^ᗜ^ )و ´-",
+    "tags": [
+      "celebrate",
+      "dance",
+      "happy",
+      "woohoo",
+      "yay",
+      "yeah"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( • ᴗ - ) ✧",
+    "tags": [
+      "gotcha",
+      "hihi",
+      "ok",
+      "okay",
+      "oki",
+      "wink"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(๑>؂•̀๑)",
+    "tags": [
+      "gotcha",
+      "hehe",
+      "joking",
+      "naughty",
+      "ofc",
+      "ok",
+      "okay",
+      "oki",
+      "playful",
+      "teehee",
+      "wink"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(◞‸◟)",
+    "tags": [
+      "depressed",
+      "despair",
+      "exhausted",
+      "lonely",
+      "meh",
+      "mood",
+      "sad",
+      "sigh"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╥﹏╥)",
+    "tags": [
+      "cry",
+      "crying",
+      "sad",
+      "sob",
+      "sobbing",
+      "tears",
+      "waaa",
+      "wah",
+      "weeping"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ಥ﹏ಥ)",
+    "tags": [
+      "cry",
+      "sad",
+      "sob",
+      "sobbing",
+      "waaah",
+      "wah",
+      "weep"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(；д；)",
+    "tags": [
+      "cry",
+      "nooo",
+      "omg",
+      "sad",
+      "sob",
+      "tears",
+      "weep"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(·•᷄‎ࡇ•᷅ )",
+    "tags": [
+      "ah",
+      "but",
+      "help",
+      "please",
+      "pls",
+      "sad",
+      "sorry"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(꒪ᗜ꒪ ‧̣̥̇)ʱªʱªʱª",
+    "tags": [
+      "ahaha",
+      "awkward",
+      "bashful",
+      "busted",
+      "caught",
+      "cringe",
+      "derp",
+      "eep",
+      "embarrassed",
+      "flustered",
+      "fufu",
+      "giggle",
+      "haha",
+      "hehe",
+      "nervous",
+      "oops",
+      "sheepish",
+      "shy",
+      "silly",
+      "sweat",
+      "sweatdrop",
+      "uhoh",
+      "welp",
+      "whoops",
+      "yikes"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(꒪ᗜ꒪ ‧̣̥̇)",
+    "tags": [
+      "awkward",
+      "busted",
+      "caught",
+      "cringe",
+      "derp",
+      "goober",
+      "hehe",
+      "mood",
+      "oof",
+      "oops",
+      "same",
+      "sus",
+      "sweat",
+      "teehee",
+      "welp",
+      "yikes"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "((((；ﾟ□ﾟ))))",
+    "tags": [
+      "aaa",
+      "aaaa",
+      "aaah",
+      "afraid",
+      "anxious",
+      "eek",
+      "eep",
+      "fear",
+      "frightened",
+      "gah",
+      "gasp",
+      "gulp",
+      "nervous",
+      "ohno",
+      "ohnoes",
+      "panic",
+      "panicking",
+      "scared",
+      "shocked",
+      "startled",
+      "terrified",
+      "terror",
+      "wtf",
+      "yikes"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ㅅ´ ˘ `)",
+    "tags": [
+      "help",
+      "please",
+      "pls",
+      "thanks",
+      "ty"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ദ്ദി(˃ ᵕ ˂ ദ്ദി)",
+    "tags": [
+      "amazing",
+      "cool",
+      "deal",
+      "gg",
+      "gotcha",
+      "nice",
+      "noice",
+      "success"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ദ്ദി(ᵔᗜᵔ)",
+    "tags": [
+      "amazing",
+      "cool",
+      "deal",
+      "gotcha",
+      "nice",
+      "noice",
+      "np",
+      "success",
+      "welcome",
+      "yes",
+      "yw"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(≖_≖ )NO",
+    "tags": [
+      "no",
+      "nop",
+      "nope"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ＾◡＾)っ NO",
+    "tags": [
+      "no",
+      "nop",
+      "nope"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ヾ(๑╹◡╹)ﾉ🔪",
+    "tags": [
+      "defiant",
+      "knife",
+      "no",
+      "nop",
+      "nope",
+      "ready",
+      "violence"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ'-')╮=͟͟͞🍋)`-' )",
+    "tags": [
+      "enough",
+      "hush",
+      "lemon",
+      "quiet",
+      "shhh",
+      "shutup",
+      "silence"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ'-')╮ =͟͟͞͞🖳",
+    "tags": [
+      "break",
+      "computer",
+      "done",
+      "enough",
+      "pc",
+      "stawp",
+      "stop",
+      "work",
+      "working"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵┻━┻",
+    "tags": [
+      "agh",
+      "angry",
+      "argh",
+      "cope",
+      "crazy",
+      "dammit",
+      "damnit",
+      "ffs",
+      "flip",
+      "frustrated",
+      "gah",
+      "godamnit",
+      "goddammit",
+      "grr",
+      "mad",
+      "rage",
+      "ragequit",
+      "salty",
+      "seethe",
+      "tableflip",
+      "tilted",
+      "triggered",
+      "ugh",
+      "wild",
+      "wtf"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ɹǝʌǝʇɐɥʍ",
+    "tags": [
+      "agh",
+      "angry",
+      "flip",
+      "frustrated",
+      "rage",
+      "tableflip",
+      "ugh",
+      "whatever"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵dol$oɹɔᴉW",
+    "tags": [
+      "angry",
+      "clanker",
+      "flip",
+      "mad",
+      "microslop",
+      "microsoft"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ ɐʇǝW",
+    "tags": [
+      "angry",
+      "facebook",
+      "fb",
+      "flip",
+      "mad",
+      "meta"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ ʞooqǝɔɐɟ",
+    "tags": [
+      "angry",
+      "facebook",
+      "fb",
+      "flip",
+      "mad",
+      "meta"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ ɯɐɹƃɐʇsuI",
+    "tags": [
+      "angry",
+      "flip",
+      "ig",
+      "insta",
+      "instagram",
+      "mad",
+      "meta"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ I∀uǝdO",
+    "tags": [
+      "angry",
+      "clanker",
+      "flip",
+      "mad",
+      "openai"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ ɔᴉdoɹɥʇu∀sᴉɯ",
+    "tags": [
+      "angry",
+      "anthropic",
+      "clanker",
+      "flip",
+      "mad",
+      "misanthropic"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ I∀ǝpnɐlƆ",
+    "tags": [
+      "angry",
+      "clanker",
+      "claudeai",
+      "flip",
+      "mad"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╯°□°)╯︵ ǝpoƆ ǝpnɐlƆ",
+    "tags": [
+      "angry",
+      "clanker",
+      "claude",
+      "claudecode",
+      "flip",
+      "mad"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(｀皿´)",
+    "tags": [
+      "agh",
+      "angry",
+      "annoyed",
+      "argh",
+      "dammit",
+      "damnit",
+      "ffs",
+      "frustrated",
+      "gah",
+      "godamnit",
+      "goddammit",
+      "grr",
+      "grumpy",
+      "irritated",
+      "mad",
+      "pissed",
+      "salty"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾",
+    "tags": [
+      "angry",
+      "fight",
+      "furious",
+      "grr",
+      "mad",
+      "rage",
+      "ready",
+      "wtf"
+    ],
+    "category": "angry",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(⃔ *`꒳´ * )⃕↝",
+    "tags": [
+      "chaos",
+      "goblin",
+      "gremlin",
+      "hehe",
+      "hehehe",
+      "menace",
+      "mischief",
+      "mwhaha",
+      "oops",
+      "scheming"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(｀∀´)",
+    "tags": [
+      "evil",
+      "hehehe",
+      "mwhaha",
+      "plotting",
+      "scheming",
+      "sinister",
+      "smug",
+      "villain",
+      "wicked"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ᵖˢˢˢˢᵀ( ﾟ∀(・－・)",
+    "tags": [
+      "creepy",
+      "drama",
+      "gossip",
+      "gremlin",
+      "lurk",
+      "lurking",
+      "oi",
+      "peek",
+      "plotting",
+      "psst",
+      "secret",
+      "sup",
+      "tea",
+      "watching",
+      "yo"
+    ],
+    "category": "peek",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "¯╲_(ツ)_╱¯",
+    "tags": [
+      "dunno",
+      "shrug",
+      "shrugging",
+      "sure",
+      "whatever"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "¯╲_(⊙_⊙)_╱¯",
+    "tags": [
+      "confused",
+      "shrug",
+      "sure",
+      "whatever"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ╹ -╹)?",
+    "tags": [
+      "confused",
+      "eh",
+      "huh",
+      "surprised",
+      "wha",
+      "what",
+      "whut"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(•̀ᴗ•́)و",
+    "tags": [
+      "cool",
+      "determined",
+      "motivated",
+      "pumped",
+      "spirit",
+      "yes"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "✌︎(ᵔᗜᵔ)✌︎",
+    "tags": [
+      "gg",
+      "peace",
+      "success",
+      "victory",
+      "win",
+      "winner"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ヽ(￣д￣;)ノ",
+    "tags": [
+      "helpless",
+      "ohno",
+      "ohnoes",
+      "panic",
+      "worried",
+      "yikes"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(；一_一)",
+    "tags": [
+      "bruh",
+      "done",
+      "exhausted",
+      "mood",
+      "overit",
+      "resigned",
+      "sigh",
+      "tired",
+      "ugh"
+    ],
+    "category": "tired",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(－‸ლ)",
+    "tags": [
+      "bruh",
+      "dammit",
+      "damnit",
+      "disappointed",
+      "facepalm",
+      "ffs",
+      "goddammit",
+      "goddamnit",
+      "really",
+      "seriously",
+      "sigh",
+      "ugh",
+      "why",
+      "yikes"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ᵕ – ⌓ – )",
+    "tags": [
+      "drowsy",
+      "gn",
+      "goodnight",
+      "sleep",
+      "sleepy",
+      "tired",
+      "yawn"
+    ],
+    "category": "tired",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "/ᐠ - ˕ -マ ᶻ 𝗓 𐰁",
+    "tags": [
+      "drowsy",
+      "gn",
+      "goodnight",
+      "sleep",
+      "sleepy",
+      "tired",
+      "yawn",
+      "zzz"
+    ],
+    "category": "tired",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ʕっ•ᴥ•ʔっ",
+    "tags": [
+      "bear",
+      "cute",
+      "fluffy",
+      "hug"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "₍^. .^₎⟆",
+    "tags": [
+      "cat",
+      "cute",
+      "kitty",
+      "peek",
+      "peekaboo",
+      "peeking",
+      "sneaky",
+      "watching"
+    ],
+    "category": "peek",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ฅ^>⩊<^ฅ",
+    "tags": [
+      "cat",
+      "cute",
+      "hello",
+      "hey",
+      "hi",
+      "neko"
+    ],
+    "category": "animal",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ᓚᘏᗢ",
+    "tags": [
+      "cat",
+      "cute",
+      "kitty",
+      "sitting"
+    ],
+    "category": "animal",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ᕙ(  •̀ ᗜ •́  )ᕗ",
+    "tags": [
+      "determined",
+      "fight",
+      "gotcha",
+      "pumped",
+      "spirit",
+      "strong",
+      "victory"
+    ],
+    "category": "action",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ಠ_ಠ",
+    "tags": [
+      "disappointed",
+      "disapproval",
+      "disgusted",
+      "ew",
+      "gross",
+      "hmm",
+      "ick",
+      "judging",
+      "really",
+      "right",
+      "skeptical",
+      "sure",
+      "whatever"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ㆆ_ㆆ)",
+    "tags": [
+      "disappointed",
+      "disapproval",
+      "hmm",
+      "judging",
+      "right",
+      "skeptical",
+      "sure",
+      "whatever"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(⚆_⚆)",
+    "tags": [
+      "eyeroll",
+      "eyes",
+      "hmm",
+      "lurking",
+      "skeptical",
+      "spying",
+      "sure",
+      "unsure"
+    ],
+    "category": "peek",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(˵ ¬ᴗ¬˵)",
+    "tags": [
+      "cheeky",
+      "cocky",
+      "confident",
+      "flirt",
+      "gotcha",
+      "gotem",
+      "hehe",
+      "hehehe",
+      "smirk",
+      "smug",
+      "teehee"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "𓁹‿𓁹 ʰᵉʰ⋅",
+    "tags": [
+      "cheeky",
+      "confident",
+      "cunning",
+      "ehehe",
+      "gotcha",
+      "gotem",
+      "gremlin",
+      "heh",
+      "hehe",
+      "hehehe",
+      "lurk",
+      "ominous",
+      "peep",
+      "smirk",
+      "smug",
+      "teehee",
+      "watching"
+    ],
+    "category": "peek",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(─.─||)",
+    "tags": [
+      "disappointed",
+      "facepalm",
+      "resigned",
+      "sigh",
+      "speechless"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "щ(ºДºщ)",
+    "tags": [
+      "honestly",
+      "shock",
+      "surprise",
+      "what",
+      "wtaf",
+      "wtf"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(⊙_☉)",
+    "tags": [
+      "amazed",
+      "crazy",
+      "holyshit",
+      "impressed",
+      "mindblown",
+      "whoa",
+      "woah",
+      "wow"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "┬─┬ノ(º_ºノ)",
+    "tags": [
+      "calm",
+      "fix",
+      "noflip",
+      "putback",
+      "table"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╮°-°)╮",
+    "tags": [
+      "bored",
+      "damn",
+      "darn",
+      "fine",
+      "indifferent",
+      "meh",
+      "nonchalant",
+      "resigned",
+      "shrug",
+      "shrugging",
+      "tired",
+      "whatever"
+    ],
+    "category": "tired",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(つ╥﹏╥)つ",
+    "tags": [
+      "comfort",
+      "embrace",
+      "hug",
+      "please",
+      "pls",
+      "snuggle",
+      "support"
+    ],
+    "category": "love",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ≖ᴗ≖)⊃࿐⋆°.☾⋆.ೃ࿔*:⋆",
+    "tags": [
+      "bruja",
+      "glitter",
+      "magic",
+      "miracle",
+      "sparkles",
+      "witch"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "٩( ᐖ )人( ᐛ )و",
+    "tags": [
+      "done",
+      "gg",
+      "highfive",
+      "win"
+    ],
+    "category": "action",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ꉂ(˵˃ ᗜ ˂˵)",
+    "tags": [
+      "giggle",
+      "haha",
+      "laugh",
+      "lol"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "˚₊·—̳͟͞͞ᕕ( ᐛ )ᕗ",
+    "tags": [
+      "asap",
+      "bye",
+      "dash",
+      "escape",
+      "fast",
+      "flee",
+      "nyoom",
+      "omw",
+      "run",
+      "rush",
+      "scurry",
+      "skedaddle",
+      "sprint",
+      "wheee",
+      "whoosh",
+      "yeet",
+      "zap",
+      "zoom"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(；￣Д￣)",
+    "tags": [
+      "awkward",
+      "doh",
+      "embarrassed",
+      "nervous",
+      "phew",
+      "sweat",
+      "ugh"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "₍₍⚞(⸝⸝>⸝⸝<⸝⸝)⚟⁾⁾",
+    "tags": [
+      "aaa",
+      "aaaa",
+      "blush",
+      "doh",
+      "eep",
+      "embarrassed",
+      "flustered",
+      "nervous",
+      "shy",
+      "ugh"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ヾ(･ω･*)",
+    "tags": [
+      "bye",
+      "goodbye",
+      "greetings",
+      "hello",
+      "hey",
+      "hi",
+      "hiya",
+      "wave"
+    ],
+    "category": "action",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "ヽ(^o^)丿",
+    "tags": [
+      "cheer",
+      "hello",
+      "hey",
+      "hi",
+      "joy",
+      "wave",
+      "woohoo",
+      "yay"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ﾉ´ｰ`)ﾉ",
+    "tags": [
+      "anyway",
+      "carefree",
+      "meh",
+      "whatever"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "◕⩊◕",
+    "tags": [
+      "curious",
+      "hehe",
+      "hey",
+      "hihi",
+      "interested",
+      "playful",
+      "wink"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(⚈⚈)",
+    "tags": [
+      "detection",
+      "eyes",
+      "hey",
+      "hmm",
+      "interested",
+      "look",
+      "looking",
+      "lurking",
+      "oh",
+      "peek",
+      "perv",
+      "pervy",
+      "playful",
+      "see",
+      "so",
+      "stalk"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(˶ᵔ ᵕ ᵔ˶)",
+    "tags": [
+      "adorable",
+      "aww",
+      "blush",
+      "content",
+      "cute",
+      "happy",
+      "smile",
+      "sweet"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "o(≧▽≦)o",
+    "tags": [
+      "excited",
+      "finally",
+      "happy",
+      "joy",
+      "omg",
+      "squeal",
+      "squee",
+      "woohoo",
+      "yesss",
+      "yippee"
+    ],
+    "category": "happy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "∘ ∘ ∘ ( °ヮ° ) ?",
+    "tags": [
+      "confused",
+      "huh",
+      "tf",
+      "what",
+      "wtf"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(≖_≖ 𖡎)",
+    "tags": [
+      "brain",
+      "confused",
+      "hmm",
+      "huh",
+      "ponder",
+      "think",
+      "thinking",
+      "what"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "_:(´□`」 ∠):_",
+    "tags": [
+      "apologise",
+      "apologize",
+      "bow",
+      "burnout",
+      "collapse",
+      "crawl",
+      "dead",
+      "ded",
+      "exhausted",
+      "flop",
+      "humble",
+      "pain",
+      "rip",
+      "sorry"
+    ],
+    "category": "tired",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ˶°ㅁ°) !!",
+    "tags": [
+      "gasp",
+      "omg",
+      "shocked",
+      "speechless",
+      "surprised"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(◎_◎;)",
+    "tags": [
+      "confused",
+      "dazed",
+      "gasp",
+      "omg",
+      "shock",
+      "shocked",
+      "surprised",
+      "wtf",
+      "yikes"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ´･･)ﾉ(._.`)",
+    "tags": [
+      "patpat",
+      "there"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "¯╲_(ᵕ—ᴗ—)_╱¯",
+    "tags": [
+      "clueless",
+      "dunno",
+      "helpless",
+      "kay",
+      "okay",
+      "shrug",
+      "shrugging",
+      "sure",
+      "whatever"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(>﹏<)",
+    "tags": [
+      "begging",
+      "helpless",
+      "oof",
+      "phew",
+      "pleading",
+      "please",
+      "pls",
+      "sorry",
+      "struggling"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(;´Д`)",
+    "tags": [
+      "despair",
+      "dying",
+      "exhausted",
+      "oof",
+      "ouch",
+      "ow",
+      "pain",
+      "struggling",
+      "suffering"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ꩜ ᯅ ꩜;)⁭⁭",
+    "tags": [
+      "burnout",
+      "dead",
+      "despair",
+      "dizzy",
+      "drowsy",
+      "ew",
+      "gross",
+      "lazy",
+      "oof",
+      "sick",
+      "sleepy",
+      "tired",
+      "ugh",
+      "yikes"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ಥ‿ಥ)",
+    "tags": [
+      "cry",
+      "emotional",
+      "finally",
+      "moved",
+      "ohmy",
+      "omg",
+      "relief",
+      "sniffle",
+      "sob",
+      "tears",
+      "teary",
+      "weeping"
+    ],
+    "category": "sad",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(ᗒᗩᗕ)",
+    "tags": [
+      "aaa",
+      "aaaa",
+      "cute",
+      "doh",
+      "embarrassed",
+      "flustered",
+      "oof",
+      "oops",
+      "shy",
+      "whoops"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(˶˃⤙˂˶)",
+    "tags": [
+      "doh",
+      "embarrassed",
+      "humph",
+      "oops",
+      "sheepish",
+      "shy",
+      "sorry",
+      "sure"
+    ],
+    "category": "shy",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(⌐■_■)",
+    "tags": [
+      "cool",
+      "geek",
+      "glasses",
+      "gotcha",
+      "nerd"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ≖⩊≖)⊃☕🖥⋆ৡ ⋆˚࿔",
+    "tags": [
+      "coding",
+      "coffee",
+      "computer",
+      "dev",
+      "geek",
+      "hacker",
+      "heathen",
+      "nerd",
+      "programming",
+      "ready",
+      "work"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "( ≖⩊≖)⊃ ᚢᛟᚢᛖᚱᚢᛁᚾᛞᛖᛚᛁᚷ⋆ৡ ⋆˚࿔",
+    "tags": [
+      "heathen",
+      "invincible",
+      "ready",
+      "victory",
+      "work"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(°□°)☝️",
+    "tags": [
+      "above",
+      "acktually",
+      "actually",
+      "btw",
+      "exactly",
+      "important",
+      "listen",
+      "note",
+      "that",
+      "this",
+      "up",
+      "wait"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "☝️(•‿•)",
+    "tags": [
+      "agree",
+      "based",
+      "correct",
+      "exactly",
+      "facts",
+      "same",
+      "this",
+      "true"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ´ཀ`)っ",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "dinner",
+      "drool",
+      "eat",
+      "food",
+      "hungry",
+      "lunch"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(๑ᵔ⤙ᵔ๑)",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "dinner",
+      "eat",
+      "hungry",
+      "lunch",
+      "munch",
+      "omnom",
+      "omnomnom",
+      "yum",
+      "yummy"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(꒷ᵔ ᵕ ᵔ꒷꒦)",
+    "tags": [
+      "hot",
+      "melt",
+      "shame",
+      "ugh",
+      "warm"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っ-⸲-)つ°🍵⋆.ೃ࿔*:･",
+    "tags": [
+      "drink",
+      "gm",
+      "matcha",
+      "morning",
+      "tea"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(っᵔ◡ᵔ)っ☕",
+    "tags": [
+      "cacao",
+      "chocolate",
+      "coffee",
+      "drink",
+      "gm",
+      "morning",
+      "tea"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "(╭ರ_•́)",
+    "tags": [
+      "bruh",
+      "hmm",
+      "lurk",
+      "lurking",
+      "maybe",
+      "monocle",
+      "peek",
+      "peeking",
+      "sir",
+      "spy",
+      "sus",
+      "think",
+      "thinking",
+      "what",
+      "whut"
+    ],
+    "category": "surprise",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "༄˖°.🍋.ೃ࿔*:･ TEXT ･:*࿔ೃ.🍋.°˖༄",
+    "tags": [
+      "attention",
+      "frame",
+      "here",
+      "important",
+      "lemon",
+      "look",
+      "notice",
+      "spark",
+      "sparkles"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  },
+  {
+    "text": "⋆𖥔｡˚✴︎⋆ TEXT ⋆✴︎˚｡𖥔⋆",
+    "tags": [
+      "attention",
+      "frame",
+      "here",
+      "important",
+      "look",
+      "notice",
+      "spark",
+      "sparkles"
+    ],
+    "category": "misc",
+    "source": [
+      "kaomojidict"
+    ]
+  }
+]
