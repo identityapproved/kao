@@ -63,3 +63,15 @@ Work the first unchecked task only. One task per session. Read `agents/architect
 - [x] T8 README
   - Usage, keys (both modes, table), install (`ln -s ~/github/kao/bin/kao ~/.local/bin/kao`), lazy.nvim spec, runtime deps (python3 >= 3.11 and a terminal with OSC 52; nothing else; tmux needs `set -g set-clipboard on`), data sources and attribution.
   - Check: every command in the README runs as written.
+
+- [ ] T11 help popup on `?`
+  - In NORMAL mode, `?` opens a centered popup listing every key of both modes (from the TUI key section of architecture.md); any key closes it and returns to the grid. In INSERT `?` stays a query char.
+  - Add `?` to the NORMAL keys in architecture.md and the README keys table.
+  - Keep the help text and popup geometry in plain functions; `handle_key` returns a new outcome (e.g. "help") or sets a state flag. Test in `tests/test_tui.py`: `?` in NORMAL opens help, next key closes it without acting, `?` in INSERT appends to the query.
+  - Check: unittest passes; the user presses `?` in NORMAL, then any key, and tries a small terminal.
+
+- [ ] T12 tag list key
+  - A NORMAL-mode key `t` opens a popup listing all available tags (`WORDS`), scrollable with `j`/`k`, `gg`/`G`, Ctrl-D/U; Enter puts `tag:<word>` in the query and returns to the grid; `q`/Esc close it.
+  - Add the key to architecture.md, the README keys table and the T11 help text.
+  - Keep list state and scrolling in plain functions and test them in `tests/test_tui.py`; reading `WORDS` must not slow startup (load it only when the popup opens).
+  - Check: unittest passes; `tools/bench.sh` still within budget; the user opens the tag list, scrolls, picks a tag and sees the filtered grid.
